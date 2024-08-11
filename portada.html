@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web SPA - Proyecto Final</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <h1>Web SPA - Proyecto Final</h1>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <a class="nav-link" href="login.html">Iniciar sesión</a>
+            <a class="nav-link" href="register.html">Registro</a>
+            <a class="nav-link" href="books.html">Libros</a>
+            <a class="nav-link" href="cart.html">Carrito</a>
+        </div>
+    </nav>
+    <main class="container my-4">
+        <section id="recommendations" class="my-4">
+            <h2>Recomendaciones</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/book1.jpg" class="card-img-top" alt="Libro 1">
+                        <div class="card-body">
+                            <h5 class="card-title">GOT Danza de Dragones</h5>
+                            <p class="card-text">Historia de los 7 reinos.</p>
+                            <a href="book_details.html?id=1" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Web SPA - Proyecto Final</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

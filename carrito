@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Web SPA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <h1>Carrito de Compras</h1>
+        </div>
+    </header>
+    <main class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form action="update_cart.php" method="post">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Autor</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th>Total</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Aquí se llenarán los datos del carrito -->
+                        </tbody>
+                    </table>
+                    <button type="submit" class="btn btn-primary">Actualizar Carrito</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Web SPA - Proyecto Final</p>
+    </footer>
+</body>
+</html>
