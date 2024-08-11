@@ -28,7 +28,6 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <!-- Aquí se llenarán los datos del carrito -->
                         </tbody>
                     </table>
                     <button type="submit" class="btn btn-primary">Actualizar Carrito</button>
